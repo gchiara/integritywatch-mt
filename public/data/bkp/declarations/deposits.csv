@@ -1,0 +1,320 @@
+FIMP,Declaration Date,Bank,Description,Amount_EUR,Amount,Currency
+1001,15/02/2023,HSBC Bank Malta,Savings Account,"123,874.21","123,874.21",EUR
+1002,07/02/2023,HSBC Bank Malta,Savings Account,"279,027.62","279,027.62",EUR
+1002,07/02/2023,HSBC Bank UK,Savings/Current Account,"4,637.79","3,952.79",GBP
+1002,07/02/2023,BOV Malta,Savings Account,0.00,0.00,EUR
+1002,07/02/2023,Revolut,Current Account (Closed Dec 22),0.00,0.00,EUR
+1002,07/02/2023,HSBC VISA Gold,Credit Card,"-3,023.05","-2,576.55",GBP
+1003,24/04/2023,Revolut,Trading Account,"4,983.00","4,983.00",EUR
+1003,24/04/2023,HSBC,Credit Card,"-1,004.00","-1,004.00",EUR
+1003,24/04/2023,BOV Savings,Savings Account,"202,050.00","202,050.00",EUR
+1003,24/04/2023,BOV Fixed,Fixed Deposit,"6,988.00","6,988.00",EUR
+1003,24/04/2023,HSBC,Fixed Account,"107,552.00","107,552.00",EUR
+1004,28/04/2023,BOV p/c,,"95,258.68","95,258.68",EUR
+1004,28/04/2023,BOV p/c,,"291,279.49","291,279.49",EUR
+1004,28/04/2023,Lombard Bank,,20.00,20.00,EUR
+1004,28/04/2023,BNF,,"1,276.40","1,276.40",EUR
+1004,28/04/2023,Lombard Bank,,734.00,734.00,EUR
+1005,20/02/2023,BOV,Savings Account,"78,260.00","78,260.00",EUR
+1005,20/02/2023,BOV,Savings Account,"58,106.00","58,106.00",EUR
+1005,20/02/2023,BOV,Savings Account,"25,393.00","25,393.00",EUR
+1005,20/02/2023,BOV,Car Loan,"-1,500.00","-1,500.00",EUR
+1005,20/02/2023,BOV,Credit Cards,"-2,100.00","-2,100.00",EUR
+1006,24/04/2023,HSBC,Savings Account,"7,029.91","7,029.91",EUR
+1006,24/04/2023,HSBC,Current Account,2.33,2.33,EUR
+1006,24/04/2023,HSBC,Savings Account,"7,011.29","7,011.29",EUR
+1006,24/04/2023,BOV,Savings Account,"7,906.38","7,906.38",EUR
+1006,24/04/2023,BOV,Savings Account,"7,884.88","7,884.88",EUR
+1006,24/04/2023,BOV,Current Account,219.11,219.11,EUR
+1007,20/04/2023,BOV,,,,
+1008,28/04/2023,HSBC,Account,"8,307.79","8,307.79",EUR
+1008,28/04/2023,HSBC,Account,291.36,291.36,EUR
+1008,28/04/2023,HSBC,Account,361.05,361.05,EUR
+1009,27/04/2023,BOV (includes money deposited in spouse's name),Savings and Current Account,"10,452.77","10,452.77",EUR
+1009,27/04/2023,BNF Bank (includes money deposited in spouse and children's name),"Savings, Current, and Fixed-Term Account","39,324.12","39,324.12",EUR
+1009,27/04/2023,Lombard Bank Malta (includes money deposited in spoude and children's name),"Savings, Current, and Fixed-Term Account","154,778.35","154,778.35",EUR
+1009,27/04/2023,Revolut (includes money deposited in spouse's name),Current Account,101.01,101.01,EUR
+1010,25/04/2023,BOV,,"7,197.31","7,197.31",EUR
+1010,25/04/2023,BNF,,"234,381.82","234,381.82",EUR
+1011,17/04/2023,BOV,Savings Account,"46,581.00","46,581.00",EUR
+1011,17/04/2023,BOV,Current Account,998.39,998.39,EUR
+1011,17/04/2023,BOV,Savings Account,25.00,25.00,EUR
+1011,17/04/2023,BOV,Savings Account,25.00,25.00,EUR
+1011,17/04/2023,HSBC,Savings Account,171.05,171.05,EUR
+1011,17/04/2023,HSBC,Current Account,31.99,31.99,EUR
+1012,13/03/2023,BOV,Savings Account,"2,770.40","2,770.40",EUR
+1012,13/03/2023,Car Loan,Finance Huse,"-12,000.00","-12,000.00",EUR
+1013,28/04/2023,"HSBC (all data entered from previous year, as MP put ""same as last year"")",Joint Savings Account,900.00,900.00,EUR
+1013,28/04/2023,HSBC,Fixed Account,"9,000.00","9,000.00",EUR
+1013,28/04/2023,HSBC,Savings Account,"60,000.00","60,000.00",EUR
+1014,02/03/2023,BOV,Acc 40020730161,"1,828.27","1,828.27",EUR
+1014,02/03/2023,BOV,Acc 40020888783,5.65,5.65,EUR
+1014,02/03/2023,BOV,Acc 40024859705,"3,000.04","3,000.04",EUR
+1014,02/03/2023,BOV,Acc 50004103199,"8,400.12","8,400.12",EUR
+1015,28/02/2023,BOV,Current/ Savings/ VISA Account,"42,499.84","42,499.84",EUR
+1015,28/02/2023,BOV,Savings Account,"260,827.91","260,827.91",EUR
+1016,13/05/2023,HSBC,Current Account,"3,693.00","3,693.00",EUR
+1016,13/05/2023,HSBC,Savings Account,"25,675.00","25,675.00",EUR
+1016,13/05/2023,BOV,Savings Account,"11,501.00","11,501.00",EUR
+1017,11/02/2023,,Savings Account,"1,364.49","1,364.49",EUR
+1017,11/02/2023,BOV,Current Account,15.32,15.32,EUR
+1017,11/02/2023,APS,Savings Account,"4,528.81","4,528.81",EUR
+1018,14/05/2023,ME Direct Bank,Savings Account,"60,000.00","60,000.00",EUR
+1018,14/05/2023,APS Bank,Savings Account,"140,000.00","140,000.00",EUR
+1019,25/04/2023,BOV,Savings and Current Account: Dhul mill-Onoravja u salarju,"29,461.96","29,461.96",EUR
+1020,27/04/2023,BOV,Savings Account,"9,453.87","9,453.87",EUR
+1020,27/04/2023,APS Bank,Savings Account,505.79,505.79,EUR
+1020,27/04/2023,APS Bank,A Plus,"355,456.88","355,456.88",EUR
+1020,27/04/2023,APS Bank,Savings Account,"1,964.72","1,964.72",EUR
+1021,24/04/2023,BOV,Savings Account,"191,310.00","191,310.00",EUR
+1021,24/04/2023,BOV,Current Account,"10,175.00","10,175.00",EUR
+1021,24/04/2023,BOV,Fixed Account,"15,521.00","15,521.00",EUR
+1021,24/04/2023,BOV,Home Loan,"-207,873.00","-207,873.00",EUR
+1022,22/04/2023,BOV,50001784320 - Bank Account Closed. Account was obo ESO ,0.00,0.00,EUR
+1022,23/04/2023,BOV,40022513470,"1,645.77","1,645.77",EUR
+1022,24/04/2023,BOV,40025712139,1.00,1.00,EUR
+1022,25/04/2023,APS Bank,20001720184,88.32,88.32,EUR
+1023,08/02/2023,BOV,Savings and Current Accounts maintained both jointly with my mother and alone  ,"32,713.68","32,713.68",EUR
+1024,17/02/2023,BOV,Savings Account,"21,902.63","21,902.63",EUR
+1024,17/02/2023,BOV,Current Account,949.05,949.05,EUR
+1025,28/04/2023,BOV,Current Account,"5,756.76","5,756.76",EUR
+1025,28/04/2023,BANIF,Current Account,60.87,60.87,EUR
+1025,28/04/2023,BOV,Savings Account,,,
+1026,25/04/2023,HSBC,Student Account,378.06,378.06,EUR
+1026,25/04/2023,HSBC,Savings-Taxable,"1,206.79","1,206.79",EUR
+1026,25/04/2023,Revolut,Standard Account,52.41,52.41,EUR
+1027,04/04/2023,BOV,Personal Account,"22,994.17","22,994.17",EUR
+1028,24/04/2023,BOV,Savings Account,"22,445.89","22,445.89",EUR
+1028,24/04/2023,BOV,Current Account,"1,546.16","1,546.16",EUR
+1028,24/04/2023,BOV,Joint Account,"17,976.94","17,976.94",EUR
+1028,24/04/2023,BNF,Current Account,"7,127.10","7,127.10",EUR
+1028,24/04/2023,BNF,Savings Account,7.94,7.94,EUR
+1028,24/04/2023,BNF,Home Loan,"-49,381.94","-49,381.94",EUR
+1029,20/04/2023,BOV,Savings Account,"155,000.00","155,000.00",EUR
+1030,17/04/2023,APS Bank,,"31,331.90","31,331.90",EUR
+1030,17/04/2023,BOV,,"12,517.57","12,517.57",EUR
+1030,17/04/2023,APS Bank,Loan,"-64,900.49","-64,900.49",EUR
+1030,17/04/2023,APS Bank,Loan,"-12,703.45","-12,703.45",EUR
+1031,17/04/2023,HSBC,Joint Savings,"6,774.99","6,774.99",EUR
+1031,17/04/2023,HSBC (Loan),Loan,"-66,287.12","-66,287.12",EUR
+1031,17/04/2023,APS Bank,Personal Account,"11,550.26","11,550.26",EUR
+1031,17/04/2023,APS Bank,Joint Savings,"77,730.84","77,730.84",EUR
+1032,21/02/2023,APS Bank,Savings and Current Account (including joint with spouse),"48,389.00","48,389.00",EUR
+1033,28/04/2023,BOV,Savings Account,"51,710.61","51,710.61",EUR
+1033,28/04/2023,Revolut,Current Account & Vault,121.35,121.35,EUR
+1034,16/04/2023,HSBC,Account in my name,"7,246.04","7,246.04",EUR
+1034,16/04/2023,HSBC,Debt in my name,"-166,099.60","-166,099.60",EUR
+1034,16/04/2023,BOV,Account in me and spouse's name,646.89,646.89,EUR
+1034,16/04/2023,BOV,Debt in me and spouse's name,"-11,655.06","-11,655.06",EUR
+1035,26/04/2023,BOV,Savings Account,691.50,691.50,EUR
+1035,26/04/2023,BOV,Savings Account,"1,786.55","1,786.55",EUR
+1036,09/02/2023,BOV,Depozitu,"91,226.19","91,226.19",EUR
+1036,09/02/2023,BOV,Joint Account (with wife),"40,800.66","40,800.66",EUR
+1037,24/04/2023,HSBC,Current Accounts,"2,186.49","2,186.49",EUR
+1037,24/04/2023,HSBC,Savings Accounts,"52,000.00","52,000.00",EUR
+1037,24/04/2023,HSBC,Savings Account,797.08,797.08,EUR
+1037,24/04/2023,HSBC,Savings Personal Account,"67,944.93","67,944.93",EUR
+1037,24/04/2023,HSBC,Savings Joint Account,"7,514.39","7,514.39",EUR
+1038,14/03/2023,HSBC,Current Account,"24,062.92","24,062.92",EUR
+1038,14/03/2023,HSBC,Current Account,0.00,0.00,EUR
+1038,14/03/2023,HSBC,Loan Account,"-11,308.69","-11,308.69",EUR
+1038,14/03/2023,Revolut,Standard Account,56.73,56.73,EUR
+1039,26/04/2023,BOV,Savings Account,"8,112.03","8,112.03",EUR
+1039,26/04/2023,BOV,Term Deposit,"1,230.32","1,230.32",EUR
+1039,26/04/2023,HSBC,Current Account,56.31,56.31,EUR
+1039,26/04/2023,HSBC,Savings Account,684.93,684.93,EUR
+1039,26/04/2023,HSBC,Savings Account,"65,825.34","65,825.34",EUR
+1039,26/05/2023,HSBC,Savings Account,"49,032.47","49,032.47",EUR
+1039,26/04/2023,HSBC,Online Savings Account,"57,968.09","57,968.09",EUR
+1040,16/02/2023,APS Bank,Deposits,"203,140.43","203,140.43",EUR
+1041,12/04/2023,APS Bank,Savings Account,"24,584.33","24,584.33",EUR
+1041,12/04/2023,APS Bank,Savings Account,"1,565.20","1,565.20",EUR
+1041,12/04/2023,APS Bank,Term Deposit,"15,881.77","15,881.77",EUR
+1041,12/04/2023,APS Bank,Term Deposit,"35,000.00","35,000.00",EUR
+1042,12/04/2023,BOV,"Savings Account: 1) NB. on 25/7/2022 sold together with my sister, my deceased's mother inherited property and my share was of EUR 160,000; and 2) NB. on 10/10/2022 sold together with my sister and uncle, my deceased's mother share property and my share was EUR 3,451.3","213,795.52","213,795.52",EUR
+1043,19/04/2023,Bank of Valletta plc (Jinkludu flus depozitati f'isem il-konjugi),Savings and Current Accounts,"2,132.07","2,132.07",EUR
+1043,19/04/2023,HSBC Bank plc Jinkludu flus depozitati f'isem il-konjugi,Savings and Current Accounts,"12,280.72","12,280.72",EUR
+1043,19/04/2023,Revolut Jinkludu flus depozitati f'isem il-konjugi,Current Account,248.11,248.11,EUR
+1044,24/04/2023,APS,Savings Account,"8,337.88","8,337.88",EUR
+1044,24/04/2023,BOV (Loan),Loan Home 1,"-82,804.00","-82,804.00",EUR
+1044,24/04/2023,BOV (Loan),Loan Home 2,"-235,050.00","-235,050.00",EUR
+1044,24/04/2023,APS (Loan),Loan Home 2,"-30,000.00","-30,000.00",EUR
+1045,30/04/2023,HSBC,Deposits,"50,126.21","50,126.21",EUR
+1045,30/04/2023,HSBC,Mortgages/Credit,"-517,630.90","-517,630.90",EUR
+1045,30/04/2023,BOV,Deposits,441.56,441.56,EUR
+1046,08/04/2023,BNF,Term deposit,"32,500.00","32,500.00",EUR
+1046,08/04/2023,BNF,Term deposit,"19,000.00","19,000.00",EUR
+1046,08/04/2023,BNF,Savings,EUR 395.37 sa tmiem l-ahhar legislatura,EUR 395.37 sa tmiem l-ahhar legislatura,EUR
+1046,08/04/2023,BOV,Savings,"2,448.00","2,448.00",EUR
+1046,08/04/2023,HSBC,Current,"5,526.65","5,526.65",EUR
+1046,08/04/2023,HSBC,Savings,"120,785.36","120,785.36",EUR
+1047,29/03/2023,HSBC,Savings Account,"60,935.89","60,935.89",EUR
+1047,29/03/2023,HSBC,Current Account,690.89,690.89,EUR
+1047,29/03/2023,HSBC,Kids Plan/ Karus Account,"12,274.59","12,274.59",EUR
+1047,29/03/2023,HSBC,Home Loan,"-23,745.54","-23,745.54",EUR
+1047,29/03/2023,HSBC,Mortgage,"-31,484.15","-31,484.15",EUR
+1048,18/04/2023,BOV,Savings Account,"2,502.67","2,502.67",EUR
+1049,03/03/2023,BOV,Kontijiet Bankarji (inkluz tal-minuri),"180,609.05","180,609.05",EUR
+1049,03/03/2023,KBC,Kont Bankarju,"10,414.77","10,414.77",EUR
+1049,03/03/2023,ING,Kontijiet Bankarji,"253,629.25","253,629.25",EUR
+1050,06/03/2023,HSBC,Joint Savings Account,"124,646.35","124,646.35",EUR
+1050,06/03/2023,HSBC,Current Account,"2,584.70","2,584.70",EUR
+1051,16/03/2023,Revolut,Debit Card,279.14,279.14,EUR
+1051,16/03/2023,BOV ,E Account - Savings Cashlink,"1,588.02","1,588.02",EUR
+1051,16/03/2023,BOV,Current Account,405.00,405.00,EUR
+1051,16/03/2023,BOV,Savings Account (Bid Bond),0.00,0.00,EUR
+1051,16/03/2023,BOV,Current Account,127.45,127.45,EUR
+1051,16/03/2023,BOV,Savings Account,10.89,10.89,EUR
+1051,16/03/2023,APS Bank,A Plus Account (Joint) - Deposit and Loan,"-7,528.00","-7,528.00",EUR
+1052,26/04/2023,Lombard Bank,Savings Account,"182,090.00","182,090.00",EUR
+1052,26/04/2023,Lombard Bank,Joint/Savings with Sharon De Marco,"13,060.00","13,060.00",EUR
+1052,26/04/2023,Lombard Bank,Current Account,"8,904.00","8,904.00",EUR
+1053,28/03/2023,BOV,Current Account (myself),"35,000.00","35,000.00",EUR
+1053,28/03/2023,BOV,Current Account (spouse),"5,660.00","5,660.00",EUR
+1053,28/03/2023,HSBC,Current Account (spouse),"15,058.12","15,058.12",EUR
+1053,28/03/2023,APS Bank,Current Account (joint account),"5,459.78","5,459.78",EUR
+1054,20/04/2023,BOV,Savings Account,"150,000.00","150,000.00",EUR
+1055,13/02/2023,BNF Loans,,"-78,000.00","-78,000.00",EUR
+1055,13/02/2023,HSBC Loans,,"-195,000.00","-195,000.00",EUR
+1056,09/02/2023,Local Banks,Deposits,"147,810.73","147,810.73",EUR
+1057,30/04/2023,BOV,Savings - 132-016--07011,"480,000.00","480,000.00",EUR
+1057,30/04/2023,BOV,Savings - 400-218-20436,"150,160.64","127,982.00",GBP
+1057,30/04/2023,BOV,Savings - 400-229-42818,"1,316.00","1,316.00",EUR
+1058,02/02/2023,BOV/APS Bank,Savings Account,"10,000.00","10,000.00",EUR
+1059,25/04/2023,BOV,Personal Overdraft,"-55,586.00","-55,586.00",EUR
+1059,25/04/2023,BOV,Savings Account,374.56,374.56,EUR
+1059,25/04/2023,BOV,Savings Account FC,47.78,47.78,EUR
+1059,25/04/2023,BOV,VISA Platinum,28.07,28.07,EUR
+1059,25/04/2023,BOV,Business Loan,"-57,807.51","-57,807.51",EUR
+1060,21/04/2023,Investment portfolio managed by BOV,,"1,448,023.89","1,448,023.89",EUR
+1060,21/04/2023,APS Account,,"1,675.91","1,675.91",EUR
+1060,21/04/2023,CMB Account,,720.66,720.66,EUR
+1061,22/02/2023,BOV,Savings Account,"589,132.48","589,132.48",EUR
+1061,22/02/2023,BOV,Current Account,10.00,10.00,EUR
+1061,22/02/2023,HSBC,Savings Account,"70,509.00","70,509.00",EUR
+1061,22/02/2023,HSBC,Savings Account,"21,124.00","21,124.00",EUR
+1062,25/04/2023,BOV,Savings Account,"26,001.08","26,001.08",EUR
+1063,16/02/2023,BOV,Total Savings,"112,441.60","112,441.60",EUR
+1064,20/02/2023,BOV,,"91,122.00","91,122.00",EUR
+1064,20/02/2023,BOV (spouse),,"153,802.00","153,802.00",EUR
+1064,20/02/2023,BNF,,"19,800.00","19,800.00",EUR
+1064,20/02/2023,Lombard Bank,,"12,052.00","12,052.00",EUR
+1064,20/02/2023,Credit Europe,,-600.00,-600.00,EUR
+1065,11/04/2023,"Accounts in Local Banks: BOV, HSBC, BNF, MedDirect",Savings and Current Accounts,"215,694.59","215,694.59",EUR
+1065,11/04/2023,Debts with Local Banks,HSBC Home Loan,"-148,661.49","-148,661.49",EUR
+1066,22/02/2023,HSBC,Savings Account,"70,447.00","70,447.00",EUR
+1066,22/02/2023,HSBC home loans,Loan Mortgage,"-248,532.00","-248,532.00",EUR
+1066,22/02/2023,HSBC UK,Savings Account,"7,362.43","6,275.00",GBP
+1067,22/02/2023,BOV,Savings Account,"29,076.42","29,076.42",EUR
+1067,22/02/2023,MeDirect Bank (Malta) plc,Savings Account,"3,867.80","3,867.80",EUR
+1068,27/04/2023,BOV,"Accounts: Savings, Eaccount, Current, Visa","4,041.84","4,041.84",EUR
+1068,27/04/2023,APS Bank,"Accounts: APlus, Savings (depozitati f'ismi u f'isem ir-ragel)","65,942.60","65,942.60",EUR
+1068,27/04/2023,HSBC,Ara dokument mehmuz,"2,750.30","2,750.30",EUR
+1069,10/04/2023,APS Bank,Savings Account,"93,634.00","93,634.00",EUR
+1070,22/04/2023,HSBC,Savings/Current/ Fixed,"223,745.92","223,745.92",EUR
+1070,22/04/2023,BOV,Savings Account,"19,214.10","19,214.10",EUR
+1070,22/04/2023,HSBC UK,Savings Account,"6,826.86","5,818.55",GBP
+1070,22/04/2023,HSBC Office A/C,Current Account,"6,315.84","6,315.84",EUR
+1071,23/04/2023,BOV,Savings Account,"8,800.00","8,800.00",EUR
+1072,01/02/2023,BOV,,"26,607.00","26,607.00",EUR
+1072,01/02/2023,HSBC,,"2,100.00","2,100.00",EUR
+1073,15/02/2023,BOV,Savings Account,734.27,734.27,EUR
+1074,26/04/2023,HSBC (joint account),Kont Kurrenti,500.00,500.00,EUR
+1074,26/04/2023,Bank of Valletta (f'isem marti),Kont Kurrenti,"20,500.00","20,500.00",EUR
+1074,26/04/2023,APS Bank (f'ismi),Kont Kurrenti,"1,000.00","1,000.00",EUR
+1074,26/04/2023,HSBC Bank f'isem marti,Kont kurrenti gej mill-writ ta' omm il-mara causa illegible,"45,000.00","45,000.00",EUR
+1075,27/03/2023,HSBC,033-127580-001,4.52,4.52,EUR
+1075,27/03/2023,HSBC,033-127580-050,5.00,5.00,EUR
+1075,27/03/2023,HSBC,033-127580–341,"-12,330.73","-12,330.73",EUR
+1075,27/03/2023,HSBC,085-074714-001,-131.94,-131.94,EUR
+1075,27/03/2023,HSBC,085-074714–050,"1,333.05","1,333.05",EUR
+1075,27/03/2023,HSBC,085–074714-051,"14,000.00","14,000.00",EUR
+1075,27/03/2023,HSBC,033-386806-050,"3,339.41","3,339.41",EUR
+1075,27/03/2023,HSBC,28000005,"-27,921.30","-27,921.30",EUR
+1075,27/03/2023,HSBC,16205121,"-57,972.92","-57,972.92",EUR
+1075,27/03/2023,HSBC,16223533,"-19,937.15","-19,937.15",EUR
+1075,27/03/2023,HSBC,27029703,"-49,174.64","-49,174.64",EUR
+1075,27/03/2023,HSBC,27035932,"74,994.26","74,994.26",EUR
+1075,27/03/2023,HSBC,27017326,"-68,466.24","-68,466.24",EUR
+1076,08/03/2023,BOV,Savings Account,"20,728.00","20,728.00",EUR
+1076,08/03/2023,BOV,Current Account,0.01,0.01,EUR
+1077,27/04/2023,Kontijiet Bankarji,Savings and Current Accounts,"183,574.00","183,574.00",EUR
+1078,08/02/2023,BOV,Savings Account,"41,133.00","41,133.00",EUR
+1078,08/02/2023,BOV,Savings Account ,"120,038.00","120,038.00",EUR
+1078,08/02/2023,HSBC,Savings Account,"7,850.00","7,850.00",EUR
+1078,08/02/2023,BOV,Home Loan,"-36,281.00","-36,281.00",EUR
+1079,19/02/2023,BNF Bank,Cheque Book Account (Form 7),"15,900.00","15,900.00",EUR
+1080,28/03/2023,Lombard Bank,Current Account,"1,579.22","1,579.22",EUR
+1080,28/03/2023,BOV,Savings Account (wife),"113,317.42","113,317.42",EUR
+1080,28/03/2023,BOV,Current Account (wife),10.00,10.00,EUR
+1080,28/03/2023,BOV,Current Account (joint),"18,003.91","18,003.91",EUR
+1080,28/03/2023,BOV,Savings Account,"6,218.55","6,218.55",EUR
+1081,09/03/2023,BOV,Savings,"3,944.74","3,944.74",EUR
+1081,09/03/2023,BOV,Visa Card,"-1,290.88","-1,290.88",EUR
+1081,09/03/2023,BOV,Loan,"-138,084.80","-138,084.80",EUR
+1082,24/02/2023,APS Bank,Savings (joint and with wife),"7,608.00","7,608.00",EUR
+1082,24/02/2023,BOV,Savings (with wife),871.00,871.00,EUR
+1082,24/02/2023,BOV,Savings (with wife),300.00,300.00,EUR
+1082,24/02/2023,HSBC Malta,Savings,241.00,241.00,EUR
+1082,24/02/2023,HSBC Malta,Euro Savings Plan,"9,616.00","9,616.00",EUR
+1082,24/02/2023,Mapfre Comprehensive Flexi Plan (wife),exc. Bonus for 2022,"5,885.00","5,885.00",EUR
+1082,24/02/2023,Mapfree MSV Life Pension Plan,exc. Bonus for 2022,"7,483.00","7,483.00",EUR
+1083,19/04/2023,HSBC,Savings,"7,600.00","7,600.00",EUR
+1083,19/04/2023,HSBC,Savings,"46,000.00","46,000.00",EUR
+1083,19/04/2023,HSBC,Loan,"-280,000.00","-280,000.00",EUR
+1084,14/02/2023,BOV,"Joint, Personal, Young savers etc","112,222.00","112,222.00",EUR
+1084,14/02/2023,HSBC,Personal + Retirement Plan,"8,205.00","8,205.00",EUR
+1084,14/02/2023,Loan,Private loan,"-80,000.00","-80,000.00",EUR
+1085,10/03/2023,BOV,Savings,"8,000.00","8,000.00",EUR
+1085,10/03/2023,BOV,Current,"6,000.00","6,000.00",EUR
+1086,11/02/2023,HSBC,Current,732.15,732.15,EUR
+1086,11/02/2023,HSBC,Savings,301.00,301.00,EUR
+1086,11/02/2023,HSBC,Savings,"15,000.82","15,000.82",EUR
+1086,11/02/2023,HSBC,Savings,"4,807.80","4,807.80",EUR
+1086,11/02/2023,HSBC,Current,55.23,55.23,EUR
+1086,11/02/2023,HSBC,Euro Savings Plan,"11,849.43","11,849.43",EUR
+1087,24/04/2023,BOV,Deposits,"25,414.26","25,414.26",EUR
+1087,24/04/2023,APS,Deposits,"33,623.98","33,623.98",EUR
+1088,28/04/2023,BOV,Savings,"72,000.00","72,000.00",EUR
+1088,28/04/2023,BOV,Bonds,"50,000.00","50,000.00",EUR
+1088,28/04/2023,MSD,Savings,"71,332.35","75,000.00",USD
+1088,28/04/2023,Stirling,Savings,"1,407.95","1,200.00",GBP
+1089,12/03/2023,APS,Current Account,"2,696.27","2,696.27",EUR
+1089,12/03/2023,HSBC,Current Joint Savings Account,"12,181.41","12,181.41",EUR
+1089,12/03/2023,BOV,Savings,98.45,98.45,EUR
+1089,12/03/2023,BOV,Current,"10,000.00","10,000.00",EUR
+1090,20/03/2023,APS,Savings,"97,466.46","97,466.46",EUR
+1090,20/03/2023,APS,Savings,"2,299.35","2,299.35",EUR
+1090,20/03/2023,BOV,Savings,"7,715.92","7,715.92",EUR
+1090,20/03/2023,Revolut,,303.00,303.00,EUR
+1090,20/03/2023,APS,Bank Loan,"-143,991.31","-143,991.31",EUR
+1090,20/03/2023,APS,Bank Loan,"-78,480.14","-78,480.14",EUR
+1091,01/04/2023,APS,Savings,"2,551.92","2,551.92",EUR
+1091,01/04/2023,APS,Current,"4,292.42","4,292.42",EUR
+1091,01/04/2023,APS,Mortgage,"-85,088.23","-85,088.23",EUR
+1091,01/04/2023,BOV,Savings,217.92,217.92,EUR
+1091,01/04/2023,HSBC,Karus Account (of daughter),"2,273.30","2,273.30",EUR
+1091,01/04/2023,HSBC,Savings - closed,86.34,86.34,EUR
+1091,01/04/2023,HSBC UK,Savings,63.43,54.06,GBP
+1091,01/04/2023,Revolut,/,384.57,384.57,EUR
+1092,08/02/2023,HSBC & Lombard Banks,Deposits,"95,000.00","95,000.00",EUR
+1092,08/02/2023,Lombard Bank,Loan,"-233,000.00","-233,000.00",EUR
+1093,18/04/2023,HSBC Bank Malta plc Jinkludu flus depozitati f'isem il-konjugi u f'isem it-tfa,"Depoziti f'Savings Accounts, f'Current Accounts, u Fixed Term Accounts","9,790.96","9,790.96",EUR
+1093,18/04/2023,HSBC Bank Malta plc Jinkludu flus depozitati f'isem il-konjugi u f'isem it-tfa,Depoziti f'Savings Accounts,"21,810.40","21,810.40",EUR
+1093,18/04/2023,Bank of Valletta plc Jinkludu flus depozitati f'isem il-konjugi u f'isem it-tfal,Depoziti f'Savings Accounts,"78,783.71","78,783.71",EUR
+1093,18/04/2023,Calamatta Cuschieri Investment Account,EUR Consolidated Account,"8,278.95","8,278.95",EUR
+1093,18/04/2023,Revolut - Jinkludu flus depozitati,Depoziti f'Current Accounts,56.98,56.98,EUR
+1094,25/04/2023,APS a/c Romilda,Savings,"1,598.95","1,598.95",EUR
+1094,25/04/2023,APS a/c Faith,Savings,"1,426.49","1,426.49",EUR
+1094,25/04/2023,APS a/c Kaydon,Savings,"1,285.00","1,285.00",EUR
+1094,25/04/2023,BOV joined,E-Account,"14,961.91","14,961.91",EUR
+1094,25/04/2023,BOV joined,Current,33.71,33.71,EUR
+1094,25/04/2023,BOV joined,Savings,603.10,603.10,EUR
+1094,25/04/2023,BOV joined,Savings,630.72,630.72,EUR
+1095,20/04/2023,"BOV, HSBC, BNF",Flus depositati fil-banek f'ismi u/jew il-konjugi,"143,969.00","143,969.00",EUR
+1096,27/04/2023,BOV,,"49,362.00","49,362.00",EUR
+1096,27/04/2023,Savings Plan MSV Life,,"30,229.00","30,229.00",EUR
+1096,27/04/2023,HSBC,,"1,798.00","1,798.00",EUR
+1096,27/04/2023,Pensions Plan,,"6,000.00","6,000.00",EUR
+1096,27/04/2023,Savings Plan - Joint MSV Life,,"14,683.00","14,683.00",EUR
+1096,27/04/2023,HSBC Savings Plan - Joint,,"27,171.00","27,171.00",EUR
