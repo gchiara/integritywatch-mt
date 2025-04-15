@@ -246,6 +246,10 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
   }
 });
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 //Load data and generate charts
 //Generate random parameter for dynamic dataset loading (to avoid caching)
 
@@ -257,9 +261,22 @@ for ( var i = 0; i < 5; i++ ) {
 
 csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
   //Parse data
+  var entryId = 1;
+  var totalDonations = 0;
   _.each(donations, function (d) {
     d.cleanedAmount = parseFloat(d.Amount.replace(',','')).toFixed(2);
+    d.Type_of_Donation = capitalizeFirstLetter(d.Type_of_Donation.toLowerCase());
+    d.entryId = entryId;
+    d.Number_of_Donations_Int = parseInt(d.Number_of_Donations.replace(',',''));
+    if(isNaN(d.Number_of_Donations_Int)) {
+      d.Number_of_Donations_Int = 0;
+    }
+    totalDonations += d.Number_of_Donations_Int;
+    entryId += 1;
   });
+
+  //Set totals for footer counters
+  $('.count-box-donations .total-count-donations').text(totalDonations);
 
   //Set dc main vars
   var ndx = crossfilter(donations);
@@ -267,6 +284,17 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
       var entryString = "" + d.Party + " " + d.Donor;
       return entryString.toLowerCase();
   });
+
+  //Set minimum bars width 
+  function setMinimumBarWidth() {
+    console.log('test');
+    $('#donors_chart rect').each(function(i, obj) {
+      console.log($(obj).attr('width'));
+      if($(obj).attr('width') < 2) {
+        $(obj).attr('width',10);
+      }
+    });
+  }
 
   //CHART 1 - PARTY
   var createPartyChart = function() {
@@ -310,6 +338,9 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
       .group(group);
 
     chart.render();
+    chart.on('filtered', function(c) { 
+      //setTimeout(setMinimumBarWidth,1500);
+    });
   }
 
   //CHART 2 - Top Donors
@@ -328,7 +359,7 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
       return {
         all: function() {
           return source_group.top(10).filter(function(d) {
-            return true;
+            return d.value > 0.00001;
           });
         }
       };
@@ -353,9 +384,13 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
       .title(function (d) {
           return d.key + ': €' + addcommas(d.value.toFixed(2));
       })
-      .elasticX(true)
+      .elasticX(false)
       .xAxis().ticks(3).tickFormat(function(d) { return '€' + addcommas(d); });
+    //chart.x(d3.scaleSqrt().domain([0, 9000000]).range([0,chart.effectiveWidth()]).clamp(true));
     chart.render();
+    chart.on('filtered', function(c) { 
+      //setTimeout(setMinimumBarWidth,1500);
+    });
   }
 
   //CHART 3 - DONATION TYPE
@@ -365,13 +400,13 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
         return d.Type_of_Donation;
     }, false);
     var group = dimension.group().reduceSum(function (d) {
-        return 1;
+        return d.Number_of_Donations_Int;
     });
     var filteredGroup = (function(source_group) {
       return {
         all: function() {
           return source_group.top(10).filter(function(d) {
-            return true;
+            return d.value > 0.00001;
           });
         }
       };
@@ -399,6 +434,9 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
       .elasticX(true)
       .xAxis().ticks(4);
     chart.render();
+    chart.on('filtered', function(c) { 
+      //setTimeout(setMinimumBarWidth,1500);
+    });
   }
 
   /*
@@ -612,8 +650,6 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
     resetGraphs();
   })
 
-
-  
   //Render charts
   createPartyChart();
   createDonorsChart();
@@ -635,6 +671,56 @@ csv('./data/political_donations.csv?' + randomPar, (err, donations) => {
   counter.on("renderlet.resetall", function(c) {
     RefreshTable();
   });
+
+  //Custom counters
+  function drawDonationsCounter() {
+    var dim = ndx.dimension (function(d) {
+      if (!d.entryId) {
+        return "";
+      } else {
+        return d.entryId;
+      }
+    });
+    var group = dim.group().reduce(
+      function(p,d) {  
+        p.nb +=1;
+        if (!d.entryId) {
+          return p;
+        }
+        p.donationsnum += d.Number_of_Donations_Int;
+        return p;
+      },
+      function(p,d) {  
+        p.nb -=1;
+        if (!d.entryId) {
+          return p;
+        }
+        p.donationsnum -= d.Number_of_Donations_Int;
+        return p;
+      },
+      function(p,d) {  
+        return {nb: 0, donationsnum:0}; 
+      }
+    );
+    group.order(function(p){ return p.nb });
+    var donationsnum = 0;
+    var counter = dc.dataCount(".count-box-donations")
+    .dimension(group)
+    .group({value: function() {
+      return group.all().filter(function(kv) {
+        if (kv.value.nb >0) {
+          donationsnum += +kv.value.donationsnum;
+        }
+        return kv.value.nb > 0; 
+      }).length;
+    }})
+    .renderlet(function (chart) {
+      $(".nbdonations").text(donationsnum);
+      donationsnum=0;
+    });
+    counter.render();
+  }
+  drawDonationsCounter();
 
   //Window resize function
   window.onresize = function(event) {

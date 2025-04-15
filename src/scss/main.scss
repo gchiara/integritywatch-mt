@@ -6,8 +6,23 @@ $color_lobby: #e51f5c;
 
 /* HEADER */
 
+#app {
+  &.donations-page, &.deposits-page, &.declarations-page {
+    @media only screen and (min-width: 992px) {
+      padding-top: 150px;
+    }
+  }
+}
+
 #iw-nav {
   //font-family: 'Open Sans', sans-serif;
+  @media only screen and (min-width: 992px) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 100000;
+  }
   font-family: 'Spectral', serif;
   padding: 0px 25px;
   &.bg-light {
@@ -87,7 +102,12 @@ $color_lobby: #e51f5c;
       font-size: 23px;
     }
     p {
-      font-size: 17px;
+      font-size: 16px;
+    }
+    a {
+      color: #fff;
+      text-decoration: underline;
+      font-weight: 600;
     }
     .top-description-text {
       max-width: 1000px;
@@ -353,6 +373,20 @@ $color_lobby: #e51f5c;
 
 /* FOOTER BAR */ 
 
+/*
+position: fixed;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 0px -2px 2px rgba(0,0,0,0.1); 
+  z-index: 99;
+  @media only screen and (min-width: 992px) {
+    bottom: auto;
+    top: 80px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1); 
+  }
+*/
+
 .footer-bar {
   //background: rgba(darken($color_TI, 10%),0.98);
   background: darken($color_TI, 5%);
@@ -363,6 +397,11 @@ $color_lobby: #e51f5c;
   position: fixed;
   box-shadow: 0px -2px 2px rgba(0,0,0,0.1); 
   z-index: 10000;
+  @media only screen and (min-width: 992px) {
+    bottom: auto;
+    top: 80px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1); 
+  }
   .footer-col {
     height: 70px;
   }
@@ -422,10 +461,13 @@ $color_lobby: #e51f5c;
       font-size: 14px;
       line-height: 110%;
       float: left;
-      &.count-box-lobbyists, &.count-box-accred {
+      &.count-box-lobbyists, &.count-box-accred, &.count-box-donations {
         @media only screen and (max-width: 1280px) {
           display: none;
         }
+      }
+      &.count-box-donations {
+        width: 200px;
       }
       &.count-box-published-meetings {
         width: 200px;
@@ -507,7 +549,7 @@ $color_lobby: #e51f5c;
 }
 #detailsModal {
   padding: 0 10px !important;
-  z-index: 10000;
+  z-index: 1000000;
   .modal-dialog {
     max-width: 1000px;
   }
@@ -1008,6 +1050,48 @@ table.dataTable tbody tr:hover {
     }
   }
 }
+.donations-page {
+  .chart-table {
+    td, th {
+      &:nth-child(1), &:nth-child(3), &:nth-child(5) {
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.deposits-page {
+  .chart-table {
+    td, th {
+      &:nth-child(1), &:nth-child(6), &:nth-child(7) {
+        @media only screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.modal-table-declarations-3 {
+  td, th {
+    &:nth-child(5) {
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
+.modal-table-declarations-5 {
+  td, th {
+    &:nth-child(5) {
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
 
 /* DISCLAIMER MODAL */
 #disclaimerModal {
@@ -1042,6 +1126,9 @@ table.dataTable tbody tr:hover {
   padding: 15px 30px;
   text-align: left;
   position: relative;
+  @media only screen and (max-width: 768px) {
+    padding: 10px 10px;
+  }
   .year-selector-bar-content {
     max-width: 1600px;
     margin: 0 auto;
@@ -1050,7 +1137,9 @@ table.dataTable tbody tr:hover {
     background: rgba(255,255,255,1);
     border-radius: 0px;
     display: inline-block;
-    margin-right: 10px;
+    //margin-right: 10px;
+    //margin-bottom: 2px;
+    margin: 4px 10px 4px 0;
     padding: 4px 15px;
     color: darken($color_TI, 30%);
     font-weight: 600;
@@ -1098,4 +1187,22 @@ table.dataTable tbody tr:hover {
 .lobbyists-expenses-message {
   padding: 30px 30px;
   text-align: left;
+}
+
+.header {
+  &.sorting, &.sorting_desc, &.sorting_asc {
+    &:hover {
+      color: #7e003f;
+    }
+  }
+}
+
+.donations-page {
+  .dc-data-table {
+    td, th {
+      &:nth-child(7) {
+        min-width: 160px;
+      }
+    }
+  }
 }

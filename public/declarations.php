@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/oswald.css">
-  <link rel="stylesheet" href="static/declarations.css?v=6">
+  <link rel="stylesheet" href="static/declarations.css?v=7">
 </head>
 <body>
     <div id="app" class="declarations-page">   
@@ -32,7 +32,9 @@
               <a class="read-more-btn" href="./about.php?section=4">Read more</a>
               <button class="social-share-btn twitter-btn" @click="share('twitter')"><img src="./images/twitter-nobg.png" />Share on Twitter</button>
               <button class="social-share-btn  facebook-btn" @click="share('facebook')"><img src="./images/facebook-nobg.png" />Share on Facebook</button>
-              <p>By simply clicking on the graph or list below users can rank, sort and filter the donations.</p>
+              <p>By simply clicking on the graph or list below users can rank, sort and filter the donations.
+              <br />To make navigation easier, you may click <a href="Integrity Watch (Malta) User Manual.pdf" target="_blank">here</a> to access the user manual.
+              </p>
             </div>
             <i class="material-icons close-btn" @click="showInfo = false">close</i>
           </div>
@@ -151,7 +153,7 @@
                     <!-- Sub-Table 1 -->
                     <div>
                       <div class="modal-table-title">Deposits</div>
-                      <table class="modal-table" v-if="selectedEl && selectedEl.deposits && selectedEl.deposits.length > 0">
+                      <table class="modal-table modal-table-declarations-1" v-if="selectedEl && selectedEl.deposits && selectedEl.deposits.length > 0">
                         <thead><tr><th>Description</th><th>Bank</th><th>Amount (EUR)</th><th>Declaration Date</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedEl.deposits">
@@ -167,7 +169,7 @@
                     <!-- Sub-Table 2 -->
                     <div>
                       <div class="modal-table-title">Directorships or Associations</div>
-                      <table class="modal-table" v-if="selectedEl && selectedEl.directorshipsOrAssociations && selectedEl.directorshipsOrAssociations.length > 0">
+                      <table class="modal-table modal-table-declarations-2" v-if="selectedEl && selectedEl.directorshipsOrAssociations && selectedEl.directorshipsOrAssociations.length > 0">
                         <thead><tr><th>Entity</th><th>Position</th><th>Declaration Date</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedEl.directorshipsOrAssociations">
@@ -182,7 +184,7 @@
                     <!-- Sub-Table 3 -->
                     <div>
                       <div class="modal-table-title">Employment</div>
-                      <table class="modal-table" v-if="selectedEl && selectedEl.employment && selectedEl.employment.length > 0">
+                      <table class="modal-table modal-table-declarations-3" v-if="selectedEl && selectedEl.employment && selectedEl.employment.length > 0">
                         <thead><tr><th>Position</th><th>Employer</th><th>Start</th><th>End</th><th>Declaration Date</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedEl.employment">
@@ -199,7 +201,7 @@
                     <!-- Sub-Table 4 -->
                     <div>
                       <div class="modal-table-title">Investments</div>
-                      <table class="modal-table" v-if="selectedEl && selectedEl.investments && selectedEl.investments.length > 0">
+                      <table class="modal-table modal-table-declarations-4" v-if="selectedEl && selectedEl.investments && selectedEl.investments.length > 0">
                         <thead><tr><th>Company</th><th>Share</th><th>Description</th><th>Declaration Date</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedEl.investments">
@@ -215,7 +217,7 @@
                     <!-- Sub-Table 5 -->
                     <div>
                       <div class="modal-table-title">Properties</div>
-                      <table class="modal-table" v-if="selectedEl && selectedEl.properties && selectedEl.properties.length > 0">
+                      <table class="modal-table modal-table-declarations-5" v-if="selectedEl && selectedEl.properties && selectedEl.properties.length > 0">
                         <thead><tr><th>Property</th><th>Obtained</th><th>Use</th><th>Connection</th><th>Declaration Date</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedEl.properties">
@@ -232,7 +234,7 @@
                     <!-- Sub-Table 6 -->
                     <div>
                       <div class="modal-table-title">Other financial interests</div>
-                      <table class="modal-table" v-if="selectedEl && selectedEl.otherFinancialInterests && selectedEl.otherFinancialInterests.length > 0">
+                      <table class="modal-table modal-table-declarations-6" v-if="selectedEl && selectedEl.otherFinancialInterests && selectedEl.otherFinancialInterests.length > 0">
                         <thead><tr><th>Detail</th><th>Amount</th><th>Declaration Date</th></tr></thead>
                         <tbody>
                           <tr v-for="el in selectedEl.otherFinancialInterests">
@@ -254,7 +256,7 @@
         </div>
       </div>
       <!-- Loader -->
-      <loader v-if="loader" :text="'Lorem ipsum sit dolor amet.'" />
+      <loader v-if="loader" :text="''" />
     </div>
 
     <script type="text/javascript" src="vendor/js/d3.v5.min.js"></script>
@@ -263,7 +265,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
 
-    <script src="static/declarations.js?v=6"></script>
+    <script src="static/declarations.js?v=7"></script>
 
  
 </body>

@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/oswald.css">
-  <link rel="stylesheet" href="static/deposits.css?v=11">
+  <link rel="stylesheet" href="static/deposits.css?v=13">
 </head>
 <body>
     <div id="app" class="deposits-page">   
@@ -32,7 +32,9 @@
               <a class="read-more-btn" href="./about.php?section=4">Read more</a>
               <button class="social-share-btn twitter-btn" @click="share('twitter')"><img src="./images/twitter-nobg.png" />Share on Twitter</button>
               <button class="social-share-btn  facebook-btn" @click="share('facebook')"><img src="./images/facebook-nobg.png" />Share on Facebook</button>
-              <p>By simply clicking on the graph or list below users can rank, sort and filter the donations.</p>
+              <p>By simply clicking on the graph or list below users can rank, sort and filter the donations.
+              <br />To make navigation easier, you may click <a href="Integrity Watch (Malta) User Manual.pdf" target="_blank">here</a> to access the user manual.
+              </p>
             </div>
             <i class="material-icons close-btn" @click="showInfo = false">close</i>
           </div>
@@ -202,7 +204,7 @@
         </div>
       </div>
       <!-- Loader -->
-      <loader v-if="loader" :text="'Lorem ipsum sit dolor amet.'" />
+      <loader v-if="loader" :text="''" />
     </div>
 
     <script type="text/javascript" src="vendor/js/d3.v5.min.js"></script>
@@ -211,7 +213,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
 
-    <script src="static/deposits.js?v=11"></script>
+    <script src="static/deposits.js?v=13"></script>
 
  
 </body>

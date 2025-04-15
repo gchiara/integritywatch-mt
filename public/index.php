@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/oswald.css">
-  <link rel="stylesheet" href="static/donations.css?v=7">
+  <link rel="stylesheet" href="static/donations.css?v=10">
 </head>
 <body>
     <div id="app" class="donations-page">   
@@ -28,11 +28,13 @@
           <div class="col-md-12 top-description-content">
             <div class="top-description-text">
               <h1>Integrity Watch Malta | Political donations</h1>
-              <h2>This is a user-friendly interactive database that provides a unique overview of political donations.</h2>
+              <h2>This is a user-friendly interactive database that provides a unique overview of political donations from 2016 to 2019.</h2>
               <a class="read-more-btn" href="./about.php?section=4">Read more</a>
               <button class="social-share-btn twitter-btn" @click="share('twitter')"><img src="./images/twitter-nobg.png" />Share on Twitter</button>
               <button class="social-share-btn  facebook-btn" @click="share('facebook')"><img src="./images/facebook-nobg.png" />Share on Facebook</button>
-              <p>By simply clicking on the graph or list below users can rank, sort and filter the donations.</p>
+              <p>By simply clicking on the graph or list below users can rank, sort and filter the donations. To refresh the data and start over, click the 'Reset Filters' button.
+                <br />To make navigation easier, you may click <a href="Integrity Watch (Malta) User Manual.pdf" target="_blank">here</a> to access the user manual.
+              </p>
             </div>
             <i class="material-icons close-btn" @click="showInfo = false">close</i>
           </div>
@@ -74,7 +76,7 @@
                       <th class="header">Donor</th>
                       <th class="header">Period</th> 
                       <th class="header">Year</th> 
-                      <th class="header">Amount in €</th> 
+                      <th class="header">Amount in €</th>
                     </tr>
                   </thead>
                 </table>
@@ -94,7 +96,10 @@
           </div>
           <div class="footer-col col-4 col-sm-8 footer-counts">
             <div class="dc-data-count count-box">
-              <div class="filter-count">0</div>out of <strong class="total-count">0</strong> donations
+              <div class="filter-count">0</div>out of <strong class="total-count">0</strong> entries
+            </div>
+            <div class="count-box count-box-donations">
+              <div class="filter-count nbdonations">0</div>out of <strong class="total-count-donations">0</strong> donations
             </div>
           </div>
         </div>
@@ -131,7 +136,7 @@
         </div>
       </div>
       <!-- Loader -->
-      <loader v-if="loader" :text="'Lorem ipsum sit dolor amet.'" />
+      <loader v-if="loader" :text="''" />
     </div>
 
     <script type="text/javascript" src="vendor/js/d3.v5.min.js"></script>
@@ -140,7 +145,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
 
-    <script src="static/donations.js?v=7"></script>
+    <script src="static/donations.js?v=10"></script>
 
  
 </body>

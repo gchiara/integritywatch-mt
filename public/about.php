@@ -110,7 +110,7 @@
             </div>
             <div id="contact" class="panel-collapse">
               <div class="panel-body">
-                <p>If you need any help with interpreting the data, please feel free to reach out to the Daphne Caruana Galizia Foundation, specifically on the following email: <a href="mailto:andrew.clarke@occrp.org">andrew.clarke@occrp.org</a></p>
+                <p>If you need any help with interpreting the data, please feel free to reach out to the Daphne Caruana Galizia Foundation, specifically on the following email: <a href="mailto:tina@daphne.foundation">tina@daphne.foundation</a></p>
                 <div class="about-eu-funding">
                   <img class="logo" src="./images/flag_yellow_low.jpg" />
                   <p style="font-family: Arial">This online platform was funded by the European Union’s Internal Security Fund – Police</p>
